@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- displays site properly based on user's device -->
+
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+      <link rel="stylesheet" href="styles.css" />
+
+      <title>Frontend Mentor | Profile card component</title>
+
+      <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+      <style>
+         .attribution {
+            font-size: 11px;
+            text-align: center;
+         }
+         .attribution a {
+            color: hsl(228, 45%, 44%);
+         }
+      </style>
+   </head>
+   <body>
+      <main>
+         <div class="card">
+            <div class="card__header">
+               <img
+                  class="card__header__image"
+                  src="./images/bg-pattern-card.svg"
+                  alt="header-card-patter"
+                  width="100%"
+                  height="100px"
+               />
+            </div>
+            <div class="card__body">
+               <img
+                  class="car__user-image"
+                  src="./images/image-victor.jpg"
+                  alt="user-profile-image"
+                  width="100px"
+                  height="100px"
+               />
+               <div class="user__data">
+                  <p>
+                     <span class="user__name">victor crest</span>
+                     <span class="user__age">26</span>
+                  </p>
+                  <p class="user__city">london</p>
+               </div>
+               <div class="user__stats">
+                  <div class="stats">
+                     <span class="user__stats-quantity">80k</span>
+                     <span class="user__stats-title">followers</span>
+                  </div>
+                  <div class="stats">
+                     <span class="user__stats-quantity">803k</span>
+                     <span class="user__stats-title">likes</span>
+                  </div>
+                  <div class="stats">
+                     <span class="user__stats-quantity">1.4k </span>
+                     <span class="user__stats-title">photos</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer>
+         <div class="attribution">
+            Challenge by
+            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+               >Frontend Mentor</a
+            >. Coded by
+            <a href="https://github.com/abHer97" target="_blank">Abel Herrera</a>.
+         </div>
+      </footer>
+   </body>
+</html>
